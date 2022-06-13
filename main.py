@@ -34,18 +34,16 @@ print(tree.print_tree())
 """Test binary search tree.
 """
 # Set up tree
-tree = BST(4)
+bst_tree = BST(4)
 
 # Insert elements
-tree.insert(2)
-tree.insert(1)
-tree.insert(3)
-tree.insert(5)
+bst_tree.insert(2)
+bst_tree.insert(1)
+bst_tree.insert(3)
+bst_tree.insert(5)
 
 # Check search
 # Should be True
-print
-tree.search(4)
+print(bst_tree.search(4))
 # Should be False
-print
-tree.search(6)
+print(bst_tree.search(6))
